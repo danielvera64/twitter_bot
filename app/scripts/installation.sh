@@ -1,0 +1,9 @@
+#!/bin/bash
+# ENV variables
+{
+  echo 'TWITTER_BOT_CONSUMER_KEY=VALUE';
+  echo 'TWITTER_BOT_CONSUMER_SECRET=VALUE';
+  echo 'TWITTER_BOT_ACCESS_TOKEN=VALUE';
+  echo 'TWITTER_BOT_ACCESS_SECRET=VALUE';
+  echo 'USELESS_FACTS_URL=VALUE';
+} >> ~/.bashrc
