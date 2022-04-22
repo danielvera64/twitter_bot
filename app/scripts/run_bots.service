@@ -1,0 +1,24 @@
+################################################################################
+# run_bots.service
+#
+# This service unit is for start run_bots.sh
+#
+#
+################################################################################
+# This program should be placed in /usr/local/lib/systemd/system/.
+# Create a symlink to it from the /etc/systemd/system directory.
+################################################################################
+
+[Unit]
+
+Description=Runs /usr/local/bin/run_bots.sh
+
+
+[Service]
+
+ExecStart=/usr/local/bin/run_bots.sh
+
+
+[Install]
+
+WantedBy=multi-user.target
